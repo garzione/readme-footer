@@ -1,0 +1,55 @@
+<svg width="800px" height="300px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Styles for buttons, text, and profile -->
+  <style>
+    .profileText { font-family: Helvetica, sans-serif; font-size: 18px; fill: black; text-anchor: middle; }
+    .button { fill: black; stroke: black; stroke-width: 1; rx: 10; ry: 10; }
+    .icon { height: 30px; width: 30px; }
+    .scooter-icon {height:45px; width: 45px;}
+  </style>
+
+  <!-- Profile Picture -->
+  <image xlink:href="https://github.com/garzione.png" x="375" y="10" height="50px" width="50px" />
+
+  <!-- Profile Link -->
+  <a xlink:href="https://github.com/garzione" target="_blank">
+    <text x="400" y="80" class="profileText">@garzione</text>
+  </a>
+
+  <!-- Buy Me a Coffee Button -->
+  <a xlink:href="https://www.buymeacoffee.com/garzione" target="_blank">
+    <image xlink:href="https://cdn.buymeacoffee.com/buttons/default-orange.png" x="340" y="100" height="40px" width="120px" />
+  </a>
+
+  <!-- Social Media Icons -->
+  <g transform="translate(220,160)">
+    
+    <!-- Garzione Button -->
+    <a xlink:href="https://garzi.one" target="_blank">
+      <rect x="300" y="5" width="60" height="60" class="button" />
+      <image xlink:href="icons/garzione.png" x="308" y="15" class="scooter-icon" />
+    </a>
+
+    <!-- X Button -->
+    <a xlink:href="https://x.com/garzione" target="_blank">
+      <rect x="0" y="5" width="60" height="60" class="button" />
+      <image xlink:href="icons/x.png" x="15" y="20" class="icon" />
+    </a>
+
+    <!-- LinkedIn Button -->
+    <a xlink:href="https://www.linkedin.com/in/justingarzione/" target="_blank">
+      <rect x="100" y="5" width="60" height="60" class="button" />
+      <image xlink:href="icons/linkedin.png" x="115" y="20" class="icon" />
+    </a>
+
+    <!-- Hugging Face Button -->
+    <a xlink:href="https://huggingface.co/garzione" target="_blank">
+      <rect x="200" y="5" width="60" height="60" class="button" />
+      <image xlink:href="icons/huggingface.svg" x="215" y="20" class="icon" />
+    </a>
+
+
+  </g>
+</svg>
+
+
+
